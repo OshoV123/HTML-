@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Example with CDN and Without CDN</title>
+</head>
+<body>
+
+    <h1>Image Example</h1>
+
+    <!-- Image without CDN -->
+    <h2>Image without CDN</h2>
+    <img src="images/local-image.jpg" alt="Local Image" width="500" height="300">
+
+    <!-- Image with CDN -->
+    <h2>Image with CDN</h2>
+    <img src="https://cdn.example.com/images/cdn-image.jpg" alt="CDN Image" width="500" height="300">
+
+    <hr>
+
+    <h1>Audio Example</h1>
+
+    <!-- Audio without CDN -->
+    <h2>Audio without CDN</h2>
+    <audio controls>
+        <source src="audio/local-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Audio with CDN -->
+    <h2>Audio with CDN</h2>
+    <audio controls>
+        <source src="https://cdn.example.com/audio/cdn-audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <hr>
+
+    <h1>Video Example</h1>
+
+    <!-- Video without CDN -->
+    <h2>Video without CDN</h2>
+    <video width="500" height="300" controls>
+        <source src="videos/local-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Video with CDN -->
+    <h2>Video with CDN</h2>
+    <video width="500" height="300" controls>
+        <source src="https://cdn.example.com/videos/cdn-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
